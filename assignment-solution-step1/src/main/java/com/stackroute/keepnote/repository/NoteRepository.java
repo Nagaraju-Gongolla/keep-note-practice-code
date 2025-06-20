@@ -20,13 +20,11 @@ public class NoteRepository {
     private List<Note> list;
 
     public NoteRepository() {
-
         /* Initialize the variable using proper data type */
         list = new ArrayList<>();
     }
 
     /* This method should return all the notes in the list */
-
     public List<Note> getList() {
         return this.list;
     }

@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Com.Stackroute</groupId>
-	<artifactId>KeepNote-Step1-Boilerplate</artifactId>
+	<artifactId>assignment-solution-step1</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>KeepNote-Step1-Boilerplate Maven Webapp</name>
+	<name>assignment-solution-step1 Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 
@@ -99,12 +99,12 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>KeepNote-Step1-Boilerplate</warName>
+						<warName>assignment-solution-step1</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>KeepNote-Step1-Boilerplate</finalName>
+		<finalName>assignment-solution-step1</finalName>
 	</build>
 </project>

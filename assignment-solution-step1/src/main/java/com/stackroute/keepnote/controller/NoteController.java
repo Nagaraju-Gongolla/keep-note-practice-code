@@ -101,15 +101,15 @@ public class NoteController {
 		return "redirect:/";
 	}
 	
-//	@RequestMapping(value = "/update", method = RequestMethod.PUT)
-//	public String update(ModelMap modelMap, @RequestParam("noteId") int noteId) {
-//		List<Note> notesList = noteRepository.getAllNotes();
-//		for(Note note: notesList) {
-//			if(note.getNoteId() == noteId) {
-//				return "index";
-//			}
-//		}
-//		modelMap.addAttribute("notesListUI", noteRepository.getAllNotes());
-//		return "redirect:/";
-//	}
+	/*@RequestMapping(value = "/updateNote", method = RequestMethod.PUT)
+	public String update(ModelMap modelMap, @RequestParam("noteId") int noteId) {
+		List<Note> notesList = noteRepository.getAllNotes();
+		for(Note note: notesList) {
+			if(note.getNoteId() == noteId) {
+				return "index";
+			}
+		}
+		modelMap.addAttribute("notesListUI", noteRepository.getAllNotes());
+		return "redirect:/";
+	}*/
 }
