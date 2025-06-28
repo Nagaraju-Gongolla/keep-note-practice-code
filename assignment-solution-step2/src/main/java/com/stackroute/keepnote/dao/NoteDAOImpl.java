@@ -71,28 +71,42 @@ public class NoteDAOImpl implements NoteDAO {
 	 * order(showing latest note first)
 	 */
 	public List<Note> getAllNotes() {
-		List<Note> noteList = (List<Note>) getSession().createQuery("from Note").getResultList();
+		/*List<Note> noteList = (List<Note>) getSession().createQuery("from Note").getResultList();
 		noteList.sort(Comparator.comparing(Note:: getCreatedAt).reversed());
-		return noteList;
+		return noteList;*/
+		return sessionFactory.getCurrentSession()
+				.createQuery("from Note order by createdAt desc", Note.class)
+				.getResultList();
 	}
 
 	/*
 	 * retrieve specific note from the database(note) table
 	 */
 	public Note getNoteById(int noteId) {
-		Query query = getSession().createQuery("from Note where noteId=?1");
+		/*Query query = getSession().createQuery("from Note where noteId=?1");
 		query.setParameter(1, noteId);
-		return  (Note) query.getSingleResult();
+		return  (Note) query.getSingleResult();*/
+		return sessionFactory.getCurrentSession()
+				.createQuery("from Note where noteId = :noteId", Note.class)
+				.setParameter("noteId", noteId)
+				.uniqueResult();
+
 	}
 
 	/* Update existing note */
 
 	public boolean UpdateNote(Note note) {
-		if(note!=null) {
+		/*if(note!=null) {
 			getSession().update(note);
 			return true;
 		}
-		return false;
+		return false;*/
+		if (note == null) {
+			return false;
+		}
+		sessionFactory.getCurrentSession().update(note);
+		return true;
+
 	}
 
 }

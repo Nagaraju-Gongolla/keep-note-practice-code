@@ -89,7 +89,7 @@ The folders and files you see in this repositories is how it is expected to be i
 
 1. Clone the base boilerplate in the folder **assignment-solution-step2** of your local machine
     
-    `git clone https://gitlab.stackroute.in/stack_java_keep_v2/KeepNote-Step2-Boilerplate.git`
+    `git clone https://gitlab.stackroute.in/stack_java_keep_v2/assignment-solution-step2.git`
     
 2. Navigate to the assignment-solution-step2 folder
 
@@ -141,3 +141,25 @@ The folders and files you see in this repositories is how it is expected to be i
 
 - Right-click on the Assignment select Run As -> Run on Server to run your Assignment.
 - Right-click on the Assignment select Run As -> JUnit Test to run your Assignment.
+
+For Traditional Spring MVC (WAR Deployment)
+If you're using Spring MVC and want to deploy to an external server like Tomcat:
+🔧 Setup Tomcat in IntelliJ
+- Install Tomcat Plugin- Go to File > Settings > Plugins
+- Search for Tomcat and TomEE Integration and install it
+
+below steps need to follow
+- Add Tomcat Server- Go to Run > Edit Configurations
+- Click + > Tomcat Server > Local
+- Set the Tomcat Home directory
+- Under Deployment, click + > Artifact and select your WAR
+
+- Build WAR Artifact- Go to File > Project Structure > Artifacts
+- Add a new Web Application: Exploded artifact
+- Include your compiled classes and resources
+
+- Run the Server- Click the green run button or press Shift + F10
+
+
+
+

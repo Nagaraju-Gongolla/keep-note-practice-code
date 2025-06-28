@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caa352d6-e193-434e-ba4d-5d5375c035ee" name="Changes" comment="modified names with clean and neat">
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/.project" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/src/main/java/com/stackroute/keepnote/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/src/main/java/com/stackroute/keepnote/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/src/main/java/com/stackroute/keepnote/repository/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/src/main/java/com/stackroute/keepnote/repository/NoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-solution-step1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-solution-step1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2yiKqYaffTdEl2nwA0lUoWMdMLI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/WorkSpace/gitworking/keep-note-practice-code/assignment-solution-step1/pom.xml",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caa352d6-e193-434e-ba4d-5d5375c035ee" name="Changes" comment="" />
+      <created>1750312145360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750312145360</updated>
+      <workItem from="1750312148072" duration="4414000" />
+      <workItem from="1750358079689" duration="303000" />
+      <workItem from="1750360449033" duration="943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified names with clean and neat" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified names with clean and neat" />
+  </component>
+</project>
