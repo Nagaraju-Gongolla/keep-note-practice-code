@@ -1,12 +1,13 @@
 package com.stackroute.keepnote.repository;
 
+import com.stackroute.keepnote.model.Note;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.ListIterator;
-
-
-import com.stackroute.keepnote.model.Note;
+import java.util.stream.Collectors;
 
 /*
  * This class contains the code for data storage interactions and methods
@@ -63,7 +64,7 @@ public class NoteRepository {
     /* This method should return the list of notes */
 
     public List<Note> getAllNotes() {
-        return this.getList();
+        return this.getList().stream().sorted(Comparator.comparing(Note::getCreatedAt).reversed()).collect(Collectors.toList());
     }
 
     /*

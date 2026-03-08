@@ -1,21 +1,15 @@
 package com.stackroute.keepnote.controller;
 
-import java.time.LocalDateTime;
-import java.util.List;
-
+import com.stackroute.keepnote.model.Note;
+import com.stackroute.keepnote.repository.NoteRepository;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
-import com.stackroute.keepnote.model.Note;
-import com.stackroute.keepnote.repository.NoteRepository;
+import java.time.LocalDateTime;
+import java.util.List;
 
 /*Annotate the class with @Controller annotation. @Controller annotation is used to mark 
  * any POJO class as a controller so that Spring can recognize this class as a Controller
